@@ -1,6 +1,6 @@
 ﻿namespace front_to_back.Models
 {
-    public class Blog
+    public class Blog:BaseEntity
     {
         public int Id { get; set; }
         public string Title { get; set; }
